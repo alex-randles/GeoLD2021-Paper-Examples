@@ -24,6 +24,7 @@ ex:refinement-0 a mqv:MappingRefinement ;
                 }
                 WHERE {
                     ?pom rr:predicate ?oldPredicate .
+                    # matching violation value blank node 
                     FILTER(str(?pom) = "ub7bL14C24").
                 }
                 """ ;
